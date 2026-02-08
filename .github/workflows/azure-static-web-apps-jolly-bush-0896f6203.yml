@@ -21,12 +21,24 @@ jobs:
           submodules: true
           lfs: false
 
+      # ✅ SAFE TEST: checks if the secret is actually present (does NOT print it)
+      - name: Debug token presence
+        run: |
+          if [ -z "${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_BUSH_0896F6203 }}" ]; then
+            echo "TOKEN IS EMPTY (secret not injected)."
+            exit 1
+          else
+            echo "TOKEN IS PRESENT (secret injected)."
+          fi
+
       - name: Build and Deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_BUSH_0896F6203 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
+
+          # matches your repo structure (Vite app in subfolder)
           app_location: "./granite-city-salsa"
           api_location: ""
           output_location: "dist"
@@ -37,6 +49,16 @@ jobs:
     name: Close Pull Request Job
 
     steps:
+      # ✅ SAFE TEST here too (optional but useful)
+      - name: Debug token presence
+        run: |
+          if [ -z "${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_BUSH_0896F6203 }}" ]; then
+            echo "TOKEN IS EMPTY (secret not injected)."
+            exit 1
+          else
+            echo "TOKEN IS PRESENT (secret injected)."
+          fi
+
       - uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_BUSH_0896F6203 }}
