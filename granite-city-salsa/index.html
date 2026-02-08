@@ -5,7 +5,36 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Granite City Salsa</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-black': '#06030a',
+              'brand-green': '#5aba32',
+              'brand-green-dark': '#4d9b2f',
+              'brand-green-darker': '#3e7629',
+              'brand-grey': '#d5d7d5',
+              'brand-purple': '#c03be2',
+              'brand-purple-dark': '#5f1a85',
+              'brand-red': '#f40e37',
+              'brand-red-dark': '#a80d28',
+            },
+            fontFamily: {
+              'oswald': ['Oswald', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

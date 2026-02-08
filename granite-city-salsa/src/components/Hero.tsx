@@ -7,7 +7,7 @@ export default function Hero() {
 
   return (
     <>
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-black via-brand-purple-dark to-brand-black font-oswald">
         {/* Background pattern overlay */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
@@ -22,14 +22,14 @@ export default function Hero() {
           <img 
             src="/logo.png" 
             alt="Granite City Salsa Logo" 
-            className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6"
+            className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 drop-shadow-2xl"
           />
           
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-wide">
             Granite City Salsa
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-300 mb-4">
+          <p className="text-xl md:text-2xl text-brand-grey mb-4 font-light">
             Aberdeen's Premier Salsa & Bachata Community
           </p>
           
@@ -43,7 +43,7 @@ export default function Hero() {
               href="https://www.instagram.com/granitecitysalsa"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-pink-500 to-purple-600 p-4 rounded-full hover:scale-110 transform transition shadow-lg"
+              className="bg-gradient-to-r from-brand-purple to-brand-purple-dark p-4 rounded-full hover:scale-110 transform transition shadow-lg"
               aria-label="Follow us on Instagram"
             >
               <Instagram className="w-6 h-6 text-white" />
@@ -59,10 +59,10 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* CTA Button - Opens Modal */}
+          {/* CTA Button */}
           <button 
             onClick={() => setIsModalOpen(true)}
-            className="bg-gradient-to-r from-green-400 to-green-600 text-gray-900 font-bold text-xl px-12 py-4 rounded-full hover:scale-105 transform transition shadow-2xl"
+            className="bg-gradient-to-r from-brand-green to-brand-green-dark text-brand-black font-bold text-xl px-12 py-4 rounded-full hover:scale-105 transform transition shadow-2xl hover:shadow-brand-green/50"
           >
             🎉 Claim Your First Class FREE
           </button>
