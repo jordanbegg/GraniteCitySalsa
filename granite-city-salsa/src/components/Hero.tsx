@@ -30,7 +30,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl md:text-2xl text-brand-grey mb-4 font-light">
-            Aberdeen's Premier Salsa & Bachata Community
+            Aberdeen's Outstanding Salsa & Bachata Community
           </p>
           
           <p className="text-lg text-gray-400 mb-8">
