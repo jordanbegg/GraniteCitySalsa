@@ -27,8 +27,6 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_BUSH_0896F6203 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
-
-          # matches your repo structure
           app_location: "./granite-city-salsa"
           api_location: ""
           output_location: "dist"

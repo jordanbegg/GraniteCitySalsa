@@ -6,6 +6,7 @@ A modern, responsive website for Aberdeen's premier salsa and bachata dance comm
 
 This website serves as the digital home for Granite City Salsa, showcasing class schedules, instructors, venue information, and providing an easy way for potential students to claim their first free class.
 
+
 ## 🚀 Quick Start
 
 ### Prerequisites
