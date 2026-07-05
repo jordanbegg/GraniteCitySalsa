@@ -3,13 +3,13 @@ export default function Schedule() {
     {
       time: "7pm - 8pm",
       name: "Beginners Salsa",
-      instructors: "Jordan & Alexandra",
+      instructors: "Jordan & Yasmin",
       color: "from-brand-green to-brand-green-dark"
     },
     {
       time: "8pm - 9pm",
-      name: "Open Level Bachata",
-      instructors: "Luis & Marija",
+      name: "Improvers Salsa",
+      instructors: "Jordan & Alexandra",
       color: "from-brand-red to-brand-red-dark"
     },
     {
@@ -21,7 +21,7 @@ export default function Schedule() {
     {
       time: "10pm - 11pm",
       name: "Social Dancing",
-      instructors: "Salsa and Bachata",
+      instructors: "Salsa",
       color: "from-brand-purple to-brand-purple-dark"
     }
   ]

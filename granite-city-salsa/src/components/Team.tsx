@@ -9,24 +9,17 @@ export default function Team() {
     },
     {
       name: "Alexandra",
-      role: "Salsa & Bachata Instructor",
+      role: "Salsa Instructor",
       bio: "Alexandra started dancing salsa seven years ago at the Aberdeen University Dance Society, adding salsa to her repertoire of dance styles including Ballet, Jazz, Contemporary, Ballroom & Latin. She found her passion in salsa dancing through the music and the non-verbal connection between leader and follower. She has been teaching dance classes for 6 years and is currently working towards her Diploma in Dance Education. Alexandra wants to bring beginners into the salsa community and share her love of salsa.",
       image: "/team/alexandra.png",
       color: "from-brand-purple to-brand-purple-dark"
     },
     {
-      name: "Luis",
-      role: "Bachata Instructor",
-      bio: "Originally from Mexico, Luis brings authentic Latin flavour and passion to the dance floor. With his natural rhythm and engaging teaching style, he creates a welcoming environment for dancers of all levels. His energy and enthusiasm are infectious, making bachata accessible and fun for everyone.",
-      image: "/team/luis.png",
+      name: "Yasmin",
+      role: "Salsa Instructor",
+      bio: "Dancing has brought Yasmin joy all of her life. In her younger years she did ballet, jazz and highland dancing. During university, she discovered and fell in love with salsa. She brings strong dancing technique, lots of teaching experience, and infectious energy.",
+      image: "/team/yasmin.jpg",
       color: "from-brand-red to-brand-red-dark"
-    },
-    {
-      name: "Marija",
-      role: "Bachata Instructor",
-      bio: "Originally from Lithuania, Marija discovered her love for bachata four years ago and hasn't looked back. Her energetic and enthusiastic approach brings joy to every class. As a talented and passionate dancer, Marija excels at breaking down complex moves and making bachata fun and accessible for beginners whilst challenging intermediate dancers.",
-      image: "/team/maria.png",
-      color: "from-brand-purple to-brand-purple-dark"
     }
   ]
 
@@ -46,7 +39,7 @@ export default function Team() {
           Meet Your Instructors
         </h2>
         <p className="text-xl text-brand-grey text-center mb-16">
-          Experienced dancers passionate about sharing their love of salsa and bachata
+          Experienced dancers passionate about sharing their love of salsa
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -60,9 +53,7 @@ export default function Team() {
                 <img 
                   src={instructor.image} 
                   alt={instructor.name}
-                  className={`w-full h-80 group-hover:scale-110 transition duration-500 ${
-                    instructor.name === 'Marija' ? 'object-contain' : 'object-cover object-top'
-                  }`}
+                  className="w-full h-80 object-cover object-top group-hover:scale-110 transition duration-500"
                 />
                 <div className={`absolute inset-0 bg-gradient-to-t ${instructor.color} opacity-20 group-hover:opacity-30 transition`}></div>
               </div>

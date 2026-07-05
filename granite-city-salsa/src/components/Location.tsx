@@ -29,11 +29,11 @@ export default function Location() {
             
             <div className="space-y-6 text-brand-grey">
               <p className="text-lg leading-relaxed">
-                Located in Aberdeen's city centre, just off Union Street, Dejavu is a spacious and well-equiped nightclub and lounge with a capacity of 450.
+                Located in Aberdeen's city centre, just off Union Street, Dejavu is a spacious nightclub and lounge with a capacity of 450.
               </p>
-              
+
               <p className="text-lg leading-relaxed">
-                The venue boasts an amazing dance floor with excellent sound systems and lighting, creating the perfect atmosphere for learning and social dancing. Whether you're taking your first salsa steps or perfecting your bachata, Dejavu provides the ideal environment.
+                With plenty of room on the dance floor, a fully stocked bar, and a great sound system, Dejavu has everything we need for a brilliant night of dancing. Whether you're taking your first salsa steps or refining your technique, it's the ideal environment.
               </p>
 
               <div className="bg-gray-900 rounded-lg p-6 space-y-4 border border-gray-800">

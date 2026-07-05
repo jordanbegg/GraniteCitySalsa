@@ -1,4 +1,4 @@
-import { X, Instagram } from "lucide-react"
+import { X, ClipboardList } from "lucide-react"
 
 interface ClaimModalProps {
   isOpen: boolean
@@ -22,7 +22,7 @@ export default function ClaimModal({ isOpen, onClose }: ClaimModalProps) {
 
         <div className="text-center">
           <div className="bg-gradient-to-r from-green-400 to-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Instagram className="w-8 h-8 text-gray-900" />
+            <ClipboardList className="w-8 h-8 text-gray-900" />
           </div>
 
           <h3 className="text-3xl font-bold text-white mb-4">
@@ -47,7 +47,7 @@ export default function ClaimModal({ isOpen, onClose }: ClaimModalProps) {
           </p>
 
           <a
-            href="https://ig.me/m/granitecitysalsa"
+            href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__sfk8i9UOUZaNzJWSDg2VkNTMzRZUkFENUNNTFZWSy4u"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block w-full bg-gradient-to-r from-green-400 to-green-600 text-gray-900 font-bold text-lg px-8 py-4 rounded-full hover:scale-105 transform transition shadow-lg"
