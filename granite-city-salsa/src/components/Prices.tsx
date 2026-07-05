@@ -35,7 +35,7 @@ export default function Prices() {
           {categories.map((category, index) => (
             <div
               key={index}
-              className="bg-brand-black rounded-lg p-8 shadow-2xl border border-gray-800"
+              className="bg-brand-black rounded-lg p-8 shadow-2xl border border-gray-800 hover:scale-105 transform transition hover:border-brand-green/50 hover:shadow-brand-green/50"
             >
               <div className={`inline-block bg-gradient-to-r ${category.color} text-white px-4 py-2 rounded-full text-sm font-bold mb-2`}>
                 {category.title}

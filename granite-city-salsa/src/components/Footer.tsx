@@ -2,7 +2,7 @@ import { Instagram, Facebook } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-black border-t border-brand-purple-dark/40 font-oswald">
+    <footer className="bg-gradient-to-br from-brand-black via-brand-purple-dark to-brand-black border-t border-brand-purple-dark/40 font-oswald">
       <div className="max-w-4xl mx-auto px-6 py-12 text-center">
         {/* Social Media Links */}
         <div className="flex justify-center gap-4 mb-6">

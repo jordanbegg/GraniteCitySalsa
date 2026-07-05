@@ -42,7 +42,7 @@ export default function Location() {
                   <div>
                     <p className="font-bold text-white">Address</p>
                     <p>1 Diamond Street</p>
-                    <p>Aberdeen AB10 1QU</p>
+                    <p>Aberdeen AB10 1QX</p>
                   </div>
                 </div>
 

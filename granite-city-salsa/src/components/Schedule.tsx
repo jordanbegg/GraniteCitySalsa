@@ -57,7 +57,7 @@ export default function Schedule() {
 
         <div className="mt-12 text-center">
           <p className="text-lg text-brand-grey mb-2">
-            📍 Dejavu Nightclub, 1 Diamond Street, Aberdeen AB10 1QU
+            📍 Dejavu Nightclub, 1 Diamond Street, Aberdeen AB10 1QX
           </p>
           <p className="text-gray-400">
             Still on every Tuesday - now with more classes!
