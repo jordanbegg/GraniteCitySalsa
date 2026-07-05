@@ -306,7 +306,7 @@ For Granite City Salsa enquiries:
 
 ## 📄 Licence
 
-This project is for Granite City Salsa. All rights reserved. Created by superbachatero Luis Toral.
+This project is for Granite City Salsa. All rights reserved. Created by superbachatero Luis Toral from Mexico.
 
 ---
 

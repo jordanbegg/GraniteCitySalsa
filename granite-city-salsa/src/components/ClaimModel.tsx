@@ -30,7 +30,7 @@ export default function ClaimModal({ isOpen, onClose }: ClaimModalProps) {
           </h3>
 
           <p className="text-gray-300 mb-6 text-lg">
-            We will redirect you to Instagram DM. Simply send us a message with:
+            We will redirect you to a form. Simply fill it in with:
           </p>
 
           <div className="bg-gray-800 rounded-lg p-6 mb-6 text-left">
@@ -39,15 +39,11 @@ export default function ClaimModal({ isOpen, onClose }: ClaimModalProps) {
                 <span className="text-green-400 mr-2">✓</span>
                 <span>Your name</span>
               </li>
-              <li className="flex items-start">
-                <span className="text-green-400 mr-2">✓</span>
-                <span>That you want to claim your free first class</span>
-              </li>
             </ul>
           </div>
 
-          <p className="text-sm text-gray-400 mb-6">
-            We will send you all the details and your free pass!
+          <p className="text-gray-300 mb-6 text-lg">
+            Then simply turn up and let us know that you would like to claim your first class for free!
           </p>
 
           <a
@@ -56,7 +52,7 @@ export default function ClaimModal({ isOpen, onClose }: ClaimModalProps) {
             rel="noopener noreferrer"
             className="inline-block w-full bg-gradient-to-r from-green-400 to-green-600 text-gray-900 font-bold text-lg px-8 py-4 rounded-full hover:scale-105 transform transition shadow-lg"
           >
-            Open Instagram DM
+            Open Form
           </a>
 
           <button

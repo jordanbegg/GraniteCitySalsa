@@ -30,7 +30,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-xl md:text-2xl text-brand-grey mb-4 font-light">
-            Aberdeen's Outstanding Salsa & Bachata Community
+            Aberdeen's Newest Salsa & Bachata Community
           </p>
           
           <p className="text-lg text-gray-400 mb-8">
@@ -40,7 +40,7 @@ export default function Hero() {
           {/* Social Media Links */}
           <div className="flex justify-center gap-4 mb-12">
             <a 
-              href="https://www.instagram.com/granitecitysalsa"
+              href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__sfk8i9UOUZaNzJWSDg2VkNTMzRZUkFENUNNTFZWSy4u"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-brand-purple to-brand-purple-dark p-4 rounded-full hover:scale-110 transform transition shadow-lg"
