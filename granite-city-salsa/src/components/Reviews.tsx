@@ -3,10 +3,8 @@ import SectionHeading from './SectionHeading'
 import Glow from './Glow'
 
 const GOOGLE_REVIEWS_URL = 'https://www.google.com/search?q=Granite+City+Salsa&kgmid=/g/11y_pv7k0c'
-// Same Google listing — "Write a review" is one tap from here. Swap for a
-// g.page/r/…/review short link (from Google Business Profile) to open the
-// review box directly.
-const GOOGLE_WRITE_REVIEW_URL = GOOGLE_REVIEWS_URL
+// Google Business Profile review short link — opens the write-a-review box directly.
+const GOOGLE_WRITE_REVIEW_URL = 'https://g.page/r/CYnfIwr7E-fvEBM/review'
 const FACEBOOK_URL = 'https://www.facebook.com/profile.php?id=61581967402586'
 
 export default function Reviews() {
