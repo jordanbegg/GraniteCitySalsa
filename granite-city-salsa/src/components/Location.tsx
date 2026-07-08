@@ -68,7 +68,7 @@ export default function Location() {
               </div>
 
               <a
-                href="https://www.google.com/maps/place/Dejavu+Nightclub+Aberdeen"
+                href="https://www.google.com/maps/dir/?api=1&destination=Dejavu+Nightclub%2C+1+Diamond+Street%2C+Aberdeen+AB10+1QX"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-brand-green to-brand-green-dark text-brand-black font-bold px-8 py-4 rounded-full hover:scale-105 transform transition shadow-lg hover:shadow-brand-green/50"
