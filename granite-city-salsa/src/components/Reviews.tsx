@@ -3,6 +3,10 @@ import SectionHeading from './SectionHeading'
 import Glow from './Glow'
 
 const GOOGLE_REVIEWS_URL = 'https://www.google.com/search?q=Granite+City+Salsa&kgmid=/g/11y_pv7k0c'
+// Same Google listing — "Write a review" is one tap from here. Swap for a
+// g.page/r/…/review short link (from Google Business Profile) to open the
+// review box directly.
+const GOOGLE_WRITE_REVIEW_URL = GOOGLE_REVIEWS_URL
 const FACEBOOK_URL = 'https://www.facebook.com/profile.php?id=61581967402586'
 
 export default function Reviews() {
@@ -71,12 +75,20 @@ export default function Reviews() {
 
         <div className="mt-12 flex flex-wrap justify-center gap-4">
           <a
-            href={GOOGLE_REVIEWS_URL}
+            href={GOOGLE_WRITE_REVIEW_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-gradient-to-r from-brand-green to-brand-green-dark text-brand-black font-bold px-8 py-4 rounded-full hover:scale-105 transform transition shadow-lg hover:shadow-brand-green/50"
           >
-            ⭐ Read our Google reviews
+            ⭐ Leave a Review
+          </a>
+          <a
+            href={GOOGLE_REVIEWS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-full border-[1.5px] border-white/30 text-white font-bold px-8 py-4 transition hover:scale-105 hover:border-white/60 hover:bg-white/5"
+          >
+            Read our Google reviews
           </a>
           <a
             href={FACEBOOK_URL}
