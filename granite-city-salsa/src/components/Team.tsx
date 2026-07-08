@@ -1,9 +1,12 @@
+import SectionHeading from './SectionHeading'
+import Glow from './Glow'
+
 export default function Team() {
   const instructors = [
     {
       name: "Jordan",
       role: "Salsa Instructor",
-      bio: "Six years ago, Jordan hung up his football boots and swapped them for Latin dance shoes. He quickly gained a passion for the fun, vibrant rhythms of salsa music and the technical details of the dance. Since then, he has pursued his passion by learning as much as possible, attending festivals around Europe to learn from the very best. Now in his fourth year of teaching, he is hoping to expand the Latin dance community and help make Aberdeen an even better place to dance.",
+      bio: "Back in 2019, Jordan hung up his football boots and swapped them for Latin dance shoes. He quickly gained a passion for the fun, vibrant rhythms of salsa music and the technical details of the dance. Since then, he has pursued his passion by learning as much as possible, attending festivals around Europe to learn from the very best. Now in his fourth year of teaching, he is hoping to expand the Latin dance community and help make Aberdeen an even better place to dance.",
       image: "/team/jordan.png",
       color: "from-brand-green to-brand-green-dark"
     },
@@ -24,40 +27,41 @@ export default function Team() {
   ]
 
   return (
-    <section className="py-20 px-6 bg-gray-900 font-oswald">
-      <div className="max-w-6xl mx-auto">
+    <section className="relative overflow-hidden py-20 px-6 bg-gray-900 font-oswald">
+      <Glow color="green" pos="top-right" />
+      <div className="relative z-10 max-w-6xl mx-auto">
         {/* Group Photo */}
         <div className="mb-16 animate-fade-in">
-          <img 
-            src="/team/team.png" 
+          <img
+            src="/team/team.png"
             alt="Granite City Salsa Team"
             className="w-full max-w-3xl mx-auto rounded-2xl shadow-2xl hover:scale-105 transform transition duration-500 border-2 border-brand-green/30"
           />
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
-          Meet Your Instructors
-        </h2>
-        <p className="text-xl text-brand-grey text-center mb-16">
-          Experienced dancers passionate about sharing their love of salsa
-        </p>
+        <SectionHeading
+          eyebrow="The Team"
+          title="Meet Your Instructors"
+          subtitle="Experienced dancers passionate about sharing their love of salsa"
+          className="mb-16"
+        />
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {instructors.map((instructor, index) => (
-            <div 
+            <div
               key={index}
               className="bg-brand-black rounded-lg overflow-hidden shadow-2xl hover:scale-105 hover:shadow-brand-green/50 transform transition duration-300 animate-slide-up border border-gray-800"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="relative overflow-hidden group bg-gray-800">
-                <img 
-                  src={instructor.image} 
+                <img
+                  src={instructor.image}
                   alt={instructor.name}
                   className="w-full h-80 object-cover object-top group-hover:scale-110 transition duration-500"
                 />
                 <div className={`absolute inset-0 bg-gradient-to-t ${instructor.color} opacity-20 group-hover:opacity-30 transition`}></div>
               </div>
-              
+
               <div className="p-6">
                 <h3 className="text-3xl font-bold text-white mb-2">
                   {instructor.name}
@@ -75,7 +79,7 @@ export default function Team() {
 
         <div className="mt-16 text-center">
           <p className="text-lg text-brand-grey">
-            ✨ Dancing together, performing and teaching at events since 2023
+            ✨ Dancing since 2019 · teaching and performing across Aberdeen since 2023
           </p>
         </div>
       </div>
