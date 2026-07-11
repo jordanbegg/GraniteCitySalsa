@@ -35,7 +35,7 @@ export default function Hero({ onClaim }: HeroProps) {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center max-w-4xl mx-auto py-20">
         <p className="uppercase text-brand-grey text-sm mb-6" style={{ letterSpacing: '0.34em' }}>
-          Aberdeen · Est. 2023
+          Aberdeen · Est. 2025
         </p>
 
         <img
