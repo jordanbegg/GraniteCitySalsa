@@ -7,14 +7,14 @@ export default function Team() {
       name: "Jordan",
       role: "Salsa Instructor",
       bio: "Back in 2019, Jordan hung up his football boots and swapped them for Latin dance shoes. He quickly gained a passion for the fun, vibrant rhythms of salsa music and the technical details of the dance. Since then, he has pursued his passion by learning as much as possible, attending festivals around Europe to learn from the very best. Now in his fourth year of teaching, he is hoping to expand the Latin dance community and help make Aberdeen an even better place to dance.",
-      image: "/team/jordan.png",
+      image: "/team/jordan1.jpeg",
       color: "from-brand-green to-brand-green-dark"
     },
     {
       name: "Alexandra",
       role: "Salsa Instructor",
       bio: "Alexandra started dancing salsa seven years ago at the Aberdeen University Dance Society, adding salsa to her repertoire of dance styles including Ballet, Jazz, Contemporary, Ballroom & Latin. She found her passion in salsa dancing through the music and the non-verbal connection between leader and follower. She has been teaching dance classes for 6 years and is currently working towards her Diploma in Dance Education. Alexandra wants to bring beginners into the salsa community and share her love of salsa.",
-      image: "/team/alexandra.png",
+      image: "/team/alexandra1.jpeg",
       color: "from-brand-purple to-brand-purple-dark"
     },
     {
@@ -33,7 +33,7 @@ export default function Team() {
         {/* Group Photo */}
         <div className="mb-16 animate-fade-in">
           <img
-            src="/team/team.png"
+            src="/team/team1.jpeg"
             alt="Granite City Salsa Team"
             className="w-full max-w-3xl mx-auto rounded-2xl shadow-2xl hover:scale-105 transform transition duration-500 border-2 border-brand-green/30"
           />
