@@ -9,9 +9,9 @@ export default function Prices() {
       color: "from-brand-green to-brand-green-dark",
       featured: false,
       options: [
-        { name: "1 class", price: "£8", student: "£6" },
-        { name: "2 classes", price: "£14", student: "£10" },
-        { name: "3 classes", price: "£18", student: "£13" }
+        { name: "1 class", price: "£8", student: "£4.50" },
+        { name: "2 classes", price: "£14", student: "£8" },
+        { name: "3 classes", price: "£18", student: "£10" }
       ]
     },
     {
@@ -20,8 +20,8 @@ export default function Prices() {
       color: "from-brand-purple to-brand-purple-dark",
       featured: true,
       options: [
-        { name: "5 class pass", price: "£35", student: "£25" },
-        { name: "10 class pass", price: "£60", student: "£48" }
+        { name: "5 class pass", price: "£35", student: "£18" },
+        { name: "10 class pass", price: "£60", student: "£32" }
       ]
     }
   ]

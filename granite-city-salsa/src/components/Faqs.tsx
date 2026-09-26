@@ -19,7 +19,7 @@ export default function Faqs() {
     },
     {
       q: 'How do I pay?',
-      a: 'Pay on the day — cash or card, from £8 a class (£6 students). Prefer to commit? Grab a 5- or 10-class pass and save. Your very first class is free.'
+      a: 'Pay on the day — cash or card, from £8 a class (£4.50 students). Prefer to commit? Grab a 5- or 10-class pass and save. Your very first class is free.'
     }
   ]
 
