@@ -26,7 +26,7 @@ export default function Footer({ onClaim }: FooterProps) {
           Your first class is on us
         </h2>
         <p className="text-xl font-light text-brand-grey mb-8">
-          No partner, no experience — just come and dance. Every Tuesday at Dejavu.
+          No partner, no experience — just come and dance. Every Tuesday at the Station Hotel.
         </p>
         <button
           onClick={onClaim}

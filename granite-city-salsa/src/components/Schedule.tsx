@@ -25,7 +25,7 @@ export default function Schedule() {
         <SectionHeading
           eyebrow="Timetable"
           title="New Timetable"
-          subtitle="Every Tuesday at Dejavu Nightclub"
+          subtitle="Every Tuesday at the Station Hotel"
           className="mb-16"
         />
 
@@ -78,7 +78,7 @@ export default function Schedule() {
 
         <div className="mt-16 text-center">
           <p className="text-lg text-brand-grey mb-2">
-            📍 Dejavu Nightclub, 1 Diamond Street, Aberdeen AB10 1QX
+            📍 Station Hotel, 78 Guild Street, Aberdeen AB11 6GN
           </p>
           <p className="text-gray-400">
             Still on every Tuesday — now with more classes!

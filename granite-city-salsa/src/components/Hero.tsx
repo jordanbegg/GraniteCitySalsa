@@ -59,7 +59,7 @@ export default function Hero({ onClaim }: HeroProps) {
         </p>
 
         <p className="uppercase text-sm text-gray-400 mb-8" style={{ letterSpacing: '0.2em' }}>
-          Every Tuesday @ Dejavu Nightclub · All Levels Welcome
+          Every Tuesday @ the Station Hotel · All Levels Welcome
         </p>
 
         {/* Social Media Links (ghost) */}

@@ -46,7 +46,8 @@ The production-ready files will be in the `dist` folder.
 granite-city-salsa/
 ├── public/                  # Static assets
 │   ├── logo.png            # Granite City Salsa logo
-│   ├── venue.png           # Dejavu Nightclub photo
+│   ├── venue-exterior.webp # Station Hotel exterior photo
+│   ├── venue-interior.jpg  # Station Hotel dance floor photo
 │   └── team/               # Instructor photos
 │       ├── jordan.png
 │       ├── alexandra.png
@@ -172,7 +173,7 @@ href="https://www.facebook.com/profile.php?id=61581967402586"
 Edit `src/components/Location.tsx`:
 - Change address text
 - Update Google Maps embed URL
-- Replace venue photo in `public/venue.png`
+- Replace venue photos in `public/venue-exterior.webp` and `public/venue-interior.jpg`
 
 ### Adding New Instructors
 
@@ -204,13 +205,13 @@ Update throughout components by replacing Tailwind classes:
 ### Adding/Replacing Images
 
 1. **Logo**: Replace `public/logo.png`
-2. **Venue Photo**: Replace `public/venue.png`
+2. **Venue Photos**: Replace `public/venue-exterior.webp` and `public/venue-interior.jpg`
 3. **Team Photos**: Add/replace in `public/team/` folder
    - Individual photos: `jordan.png`, `alexandra.png`, etc.
    - Group photo: `team.png`
 
 ### Image Requirements
-- Format: PNG or JPG
+- Format: PNG, JPG or WebP
 - Logo: Ideally square (e.g., 400x400px)
 - Venue: Landscape orientation (e.g., 1200x800px)
 - Team photos: Portrait or square (e.g., 800x1000px)
